@@ -1,0 +1,46 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="SteamProcessor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SteamProcessor_jar</output-path>
+    <root id="root">
+      <element id="archive" name="SteamProcessor.jar">
+        <element id="module-output" name="SteamProcessor" />
+      </element>
+      <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+      <element id="library" level="project" name="Maven: org.bytedeco:artoolkitplus:2.3.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:android-arm64:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg-platform:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:android-arm:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:android-x86:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:android-x86_64:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:linux-arm64:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:linux-armhf:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:linux-ppc64le:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:linux-x86:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:linux-x86_64:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:macosx-x86_64:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:windows-x86:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:windows-x86_64:4.2.1-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:flandmark:1.07-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:flycapture:2.13.3.31-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:javacpp:1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:javacv:1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:leptonica:1.78.0-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:libdc1394:2.2.6-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:libfreenect2:0.2.0-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:libfreenect:0.5.7-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:librealsense2:2.29.0-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:librealsense:1.12.4-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:openblas:0.3.7-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:opencv:4.1.2-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:tesseract:4.1.0-1.5.2" />
+      <element id="library" level="project" name="Maven: org.bytedeco:videoinput:0.200-1.5.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:11" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:11" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:11" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:11" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.30" />
+    </root>
+  </artifact>
+</component>

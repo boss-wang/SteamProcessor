@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Main-Class: cc.rexfa.java.media.Main
+Class-Path: librealsense-1.12.4-1.5.2.jar ffmpeg-4.2.1-1.5.2-macosx-x86_
+ 64.jar ffmpeg-4.2.1-1.5.2-linux-arm64.jar openblas-0.3.7-1.5.2.jar libr
+ ealsense2-2.29.0-1.5.2.jar ffmpeg-4.2.1-1.5.2.jar log4j-1.2.17.jar ffmp
+ eg-4.2.1-1.5.2-android-arm.jar libdc1394-2.2.6-1.5.2.jar ffmpeg-4.2.1-1
+ .5.2-linux-x86_64.jar ffmpeg-4.2.1-1.5.2-linux-armhf.jar javacpp-1.5.2.
+ jar ffmpeg-4.2.1-1.5.2-linux-ppc64le.jar tesseract-4.1.0-1.5.2.jar slf4
+ j-api-1.7.30.jar ffmpeg-4.2.1-1.5.2-android-x86.jar ffmpeg-4.2.1-1.5.2-
+ linux-x86.jar libfreenect2-0.2.0-1.5.2.jar artoolkitplus-2.3.1-1.5.2.ja
+ r flycapture-2.13.3.31-1.5.2.jar leptonica-1.78.0-1.5.2.jar javafx-grap
+ hics-11-win.jar videoinput-0.200-1.5.2.jar javafx-graphics-11.jar ffmpe
+ g-platform-4.2.1-1.5.2.jar ffmpeg-4.2.1-1.5.2-android-arm64.jar ffmpeg-
+ 4.2.1-1.5.2-windows-x86_64.jar opencv-4.1.2-1.5.2.jar slf4j-log4j12-1.7
+ .30.jar javafx-base-11-win.jar javafx-base-11.jar javacv-1.5.2.jar ffmp
+ eg-4.2.1-1.5.2-android-x86_64.jar ffmpeg-4.2.1-1.5.2-windows-x86.jar li
+ bfreenect-0.5.7-1.5.2.jar flandmark-1.07-1.5.2.jar
+
