@@ -23,6 +23,7 @@ public class TimerJobUtil{
                 // 管理缓存
                 if (null != ServiceCache.STREAMMAP && 0 != ServiceCache.STREAMMAP.size()) {
                     Set<String> keys = ServiceCache.STREAMMAP.keySet();
+                    logger.info("****** 已经启动的封装线程数量"+keys.size() +"  ******");
                     for (String key : keys) {
                         try {
                             // 最后打开时间

@@ -30,6 +30,10 @@ public class FFSteamProcessor {
 
     }
     public String initializeJob(CameraInfo cameraInfo,ServerInfo serverInfo) throws Exception {
+        if(cameraInfo==null || serverInfo ==null)
+        {
+            throw new Exception("参数不可以为空");
+        }
         if(cameraInfo.getRtsp()==null||cameraInfo.getIp()==null||cameraInfo.getChannel()==null){
             throw new Exception("cameraInfo数据不全");
         }
@@ -56,14 +60,29 @@ public class FFSteamProcessor {
         return  serverInfo.getRtmp();
     }
 
+    /**
+     * 取得所有Key
+     * @return 返回key的Set
+     */
     public Set<String> getAllTokens(){
         return FFThreadIndexUtil.FFThreadMAP.keySet();
     }
 
-    public void interruptJob(String token){
+    /**
+     * 关闭指定线程
+     * @param token
+     * @throws Exception
+     */
+    public void interruptJob(String token) throws Exception{
         FFThreadManagement.FFRunnable job = FFThreadIndexUtil.FFThreadMAP.get(token);
         if(job!=null){
             job.setInterrupted();
+            // 清除缓存
+            ServiceCache.STREAMMAP.remove(token);
+            FFThreadIndexUtil.FFThreadMAP.remove(token);
+        }
+        else {
+            throw new Exception("No corresponding thread found");
         }
     }
 
